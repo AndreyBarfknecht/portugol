@@ -13,9 +13,15 @@ programa
 			leia (valor3)
 			soma = (valor1 + valor2 + valor3)
 			media = soma / 3
-			
-			
 			escreva ("a média dos  números é: " + media+"\n")
+			se (media >=6){
+				escreva ("Aprovado\n")
+			}senao{
+				escreva ("Reprovado\n")
+					
+			}
+	
+			
 			
 	}
 }
@@ -24,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 319; 
+ * @POSICAO-CURSOR = 385; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
