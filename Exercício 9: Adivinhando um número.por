@@ -9,15 +9,17 @@ programa
 		inteiro NumeroSorteado
 		NumeroSorteado = sorteia(1,10)
 		escreva(NumeroSorteado+"\n")
-		para(inteiro incremento=0; incremento < 5; incremento++){
+		
+		para(inteiro x=0; x < 5; x++){
 		escreva("Adivinhe o número: ")
 		leia(Numero)
 		se(Numero == NumeroSorteado){
-			escreva("Parabéns, você adivinho o número\n")
-			leia(Numero)
+			escreva("Parabéns, você adivinhou o número\n")
 		}senao{
 			escreva("você errou\n")
 		}
+		se(Numero == NumeroSorteado)
+		x = 5
 	}
 }
 }
@@ -26,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 222; 
+ * @POSICAO-CURSOR = 426; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
