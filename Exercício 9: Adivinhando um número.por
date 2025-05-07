@@ -12,7 +12,7 @@ programa
 		
 		//antes do laço
 		para(inteiro tentativas=1; tentativas <= 5; tentativas++){
-		escreva("Tentativa "+ tentativas+ " de 5. Adivinhe o número (1 a 10): ")
+		escreva("Tentativa "+ tentativas+ " de 5. Adivinhe o número (1 a 10):\n ")
 		leia(Numero)
 		se(Numero == NumeroSorteado)
 		{
@@ -25,7 +25,7 @@ programa
 		}
 		se (tentativas == 5)
 		{
-			escreva("Game Over! O número sorteado era ", NumeroSorteado, "\n")
+			escreva("Game-Over! O número sorteado era ", NumeroSorteado, "\n")
 		}
 				
 	}
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 63; 
+ * @POSICAO-CURSOR = 571; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
