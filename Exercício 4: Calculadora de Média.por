@@ -5,11 +5,11 @@ programa
 	{
 	real valor1,valor2,valor3,soma,media
 	
-			escreva ("insira o valora para o número 1: ")
+			escreva ("insira o valor para o número 1: ")
 			leia (valor1)
-			escreva ("insira o valora para o número 2: ")
+			escreva ("insira o valor para o número 2: ")
 			leia (valor2)
-			escreva ("insira o valora para o número 3: ")
+			escreva ("insira o valor para o número 3: ")
 			leia (valor3)
 			soma = (valor1 + valor2 + valor3)
 			media = soma / 3
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 385; 
+ * @POSICAO-CURSOR = 100; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
