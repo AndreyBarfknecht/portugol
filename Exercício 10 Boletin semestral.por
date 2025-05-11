@@ -56,7 +56,7 @@ programa
 			mediahumanas = soma / 3
 			
 
-			escreva ("\nLinguagens -> Média = " + medialinguagens)
+			escreva ("\nLinguagens -> "+"1ª Nota:"+linguagens1+" | 2ª Nota:"+linguagens2+" | 3ª Nota:"+linguagens3+" | Média = " + medialinguagens)
 			se(medialinguagens < 5){
 				escreva ("  Reprovado\n")
 			}senao se(medialinguagens >= 7){
@@ -67,7 +67,7 @@ programa
 			
 			
 			
-			escreva ("Matemática -> Média = " + mediamatematica)
+			escreva ("\nMatemática -> "+"1ª Nota:"+matematica1+" | 2ª Nota:"+matematica2+" | 3ª Nota:"+matematica3+" | Média = " + mediamatematica)
 			se(mediamatematica < 5){
 				escreva ("  Reprovado\n")
 			}senao se(mediamatematica >= 7){
@@ -78,7 +78,7 @@ programa
 			
 			
 			
-			escreva ("Ciências da Natureza -> Média =  " + medianatureza)
+			escreva ("\nCiências da Natureza -> "+"1ª Nota:"+natureza1+" | 2ª Nota:"+natureza2+" | 3ª Nota:"+natureza3+" | Média = " + medianatureza)
 			se(medianatureza < 5){
 				escreva ("  Reprovado\n")
 			}senao se(medianatureza >= 7){
@@ -89,7 +89,7 @@ programa
 
 			
 			
-			escreva ("Ciências Humanas -> Média = " + mediahumanas)
+			escreva ("\nCiências da Humanas -> "+"1ª Nota:"+humanas1+" | 2ª Nota:"+humanas2+" | 3ª Nota:"+humanas3+" | Média = " + mediahumanas)
 			se(mediahumanas < 5){
 				escreva ("  Reprovado\n")
 			}senao se(mediahumanas >= 7){
@@ -113,7 +113,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1940; 
+ * @POSICAO-CURSOR = 2801; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
