@@ -12,7 +12,7 @@ programa
 	real natureza1,natureza2,natureza3,medianatureza,arredondadonatu
 	real humanas1,humanas2,humanas3,mediahumanas,arredondadohuma
 	
-	
+			//Linguagens
 			escreva ("Bem vindo ao boletim virtual, Vamos começar com o nome do aluno: ")
 			leia(nomealuno)
 			escreva("Vamo inserir as notas da matéria de Linguagens.\n")
@@ -27,7 +27,7 @@ programa
 			medialinguagens = soma / 3
 			arredondadolin = mat.arredondar(medialinguagens, 2)
 			
-
+			//Matemática
 			escreva("\nAgora vamos as notas de Matemática.\n")
 			escreva ("\nMatemática ->\n")	
 			escreva ("insira a primeira nota: ")
@@ -40,7 +40,7 @@ programa
 			mediamatematica = soma / 3
 			arredondadomat = mat.arredondar(mediamatematica, 2)
 			
-
+			//Ciências da Natureza
 			escreva("\nAgora as notas de Ciência da Natureza.\n")
 			escreva ("\nCiências da Natureza ->\n")	
 			escreva ("insira a primeira nota: ")
@@ -53,8 +53,8 @@ programa
 			medianatureza = soma / 3
 			arredondadonatu = mat.arredondar(medianatureza, 2)
 			
-
-			escreva("\nE por fim as notas de Ciência Humanas.\n")
+			//Ciências Humanas
+			escreva("\nE por fim as notas de Ciências Humanas.\n")
 			escreva ("\nCiências Humanas ->\n")	
 			escreva ("insira a primeira nota: ")
 			leia (humanas1)
@@ -65,7 +65,6 @@ programa
 			soma = (humanas1 + humanas2 + humanas3)
 			mediahumanas = soma / 3
 			arredondadohuma = mat.arredondar(mediahumanas, 2)
-			
 			
 			
 			escreva("\nAluno: "+nomealuno)
@@ -79,7 +78,6 @@ programa
 			}
 			
 			
-			
 			escreva ("\nMatemática -> "+"1ª Nota:"+matematica1+" | 2ª Nota:"+matematica2+" | 3ª Nota:"+matematica3+" | Média = " + arredondadomat)
 			se(mediamatematica < 5){
 				escreva ("  Reprovado\n")
@@ -88,7 +86,6 @@ programa
 			}senao{
 				escreva(" Recuperação\n")
 			}
-			
 			
 			
 			escreva ("\nCiências da Natureza -> "+"1ª Nota:"+natureza1+" | 2ª Nota:"+natureza2+" | 3ª Nota:"+natureza3+" | Média = " + arredondadonatu)
@@ -101,7 +98,6 @@ programa
 			}
 
 			
-			
 			escreva ("\nCiências da Humanas -> "+"1ª Nota:"+humanas1+" | 2ª Nota:"+humanas2+" | 3ª Nota:"+humanas3+" | Média = " + arredondadohuma)
 			se(mediahumanas < 5){
 				escreva ("  Reprovado\n")
@@ -109,16 +105,7 @@ programa
 					escreva(" Aprovado\n")
 			}senao{
 				escreva(" Recuperação\n")
-			}
-
-
-
-
-
-			
-	
-			
-			
+			}		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -126,7 +113,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2474; 
+ * @POSICAO-CURSOR = 1798; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
