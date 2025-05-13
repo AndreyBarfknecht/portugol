@@ -109,7 +109,7 @@ programa
 			
 			mediageral = (arredondadolin + arredondadomat + arredondadonatu + arredondadohuma) / 4
 			arredondadomediageral = mat.arredondar(mediageral,2)
-			escreva("\nMédia Geral :"+ arredondadomediageral+"\n")
+			escreva("\nMédia Geral : "+ arredondadomediageral+"\n")
 				
 	}
 }
@@ -118,7 +118,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3721; 
+ * @POSICAO-CURSOR = 3698; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
