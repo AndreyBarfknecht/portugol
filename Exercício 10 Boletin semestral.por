@@ -6,7 +6,7 @@ programa
 	{
 
 	cadeia nomealuno
-	real soma
+	real soma,mediageral,arredondadomediageral
 	real linguagens1,linguagens2,linguagens3,medialinguagens,arredondadolin
 	real matematica1,matematica2,matematica3,mediamatematica,arredondadomat
 	real natureza1,natureza2,natureza3,medianatureza,arredondadonatu
@@ -105,7 +105,12 @@ programa
 					escreva(" Aprovado\n")
 			}senao{
 				escreva(" Recuperação\n")
-			}		
+			}
+			
+			mediageral = (arredondadolin + arredondadomat + arredondadonatu + arredondadohuma) / 4
+			arredondadomediageral = mat.arredondar(mediageral,2)
+			escreva("\nMédia Geral :"+ arredondadomediageral+"\n")
+				
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -113,7 +118,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1798; 
+ * @POSICAO-CURSOR = 3721; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
