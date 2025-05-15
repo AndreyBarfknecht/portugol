@@ -7,15 +7,19 @@ programa
 		inteiro dado1 ,dado2 
 		inteiro posicaoj1 = 0,posicaoj2 = 0
 		inteiro valordados = 0
-		inteiro j1,j2
+		cadeia j1,j2
 		cadeia iniciar
 
 		escreva("bem vindo ao Jogo de Dados\n")
+		escreva("Escreva o nome do jogador 1: ")
+		leia(j1)
+		escreva("Escreva o nome do jogador 2: ")
+		leia(j2)
 		
 		para(inteiro rodada=1; rodada <= 5; rodada++){
 		//Jogador1
 		escreva("\nRodada "+ rodada+ " de 5. \n")
-		escreva("\nJogador 1.(Pressione 'ENTER' para jogar os dados)\n")
+		escreva("\n"+j1+" Pressione 'ENTER' para jogar os dados)\n")
 		leia (iniciar)
 		se(iniciar == ""){
 		}
@@ -34,7 +38,7 @@ programa
 		
 		
 		//jogador2
-		escreva("\nJogador 2.(Pressione 'ENTER' para jogar os dados)\n")
+		escreva("\n"+j2+" Pressione 'ENTER' para jogar os dados)\n")
 		leia (iniciar)
 		se(iniciar == ""){
 		}
@@ -53,12 +57,12 @@ programa
 		
 	}
 	escreva("\nResultado da Partida:\n")
-	escreva("Jogardor 1 fez --> "+posicaoj1+"\n")
-	escreva("\nJogardor 2 fez --> "+posicaoj2+"\n")
+	escreva(j1+" fez --> "+posicaoj1+" pontos \n")
+	escreva(j2+" fez --> "+posicaoj2+" pontos \n")
 	se(posicaoj1 > posicaoj2){
-		escreva("\nJogador 1 Ganhou!!!")
+		escreva("\n"+j1+" Ganhou!!!")
 	}senao se(posicaoj2 > posicaoj1){
-		escreva("\nJogador 2 ganhou!!!")
+		escreva("\n"+j2+" Ganhou!!!")
 		}senao{
 			escreva("\nO jogo empatou!")
 			}
@@ -70,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1570; 
+ * @POSICAO-CURSOR = 1626; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
