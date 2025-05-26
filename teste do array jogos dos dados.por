@@ -45,41 +45,41 @@ programa
 				
 			
 		//Jogador1
-		escreva("\nRodada "+ rodada+ " de 5. \n")
-		escreva("\n"+j1+" Pressione 'ENTER' para jogar os dados)\n")
-		leia (iniciar)
-		se(iniciar == ""){
-		}
-		escreva("Rolando os dados....\n")
-		valordados = 0
-		dado1 = (sorteia(1,6))
-		dado2 = (sorteia(1,6))
-		valordados = (dado1) + (dado2)
-		se(dado1 == dado2){
-			valordados += 3
-			escreva("\nparabéns você tirou dois dados iguais. + 3 pontos bônus")
-		}
-		posicaoj1 = posicaoj1 + valordados
-		escreva("\n1º dado --> "+dado1+" | 2º dado --> "+dado2+" | total = "+valordados+"\n")
-		
-		
-		
-		//jogador2
-		escreva("\n"+j2+" Pressione 'ENTER' para jogar os dados)\n")
-		leia (iniciar)
-		se(iniciar == ""){
-		}
-		escreva("Rolando os dados....\n")
-		valordados = 0
-		dado1 = (sorteia(1,6))
-		dado2 = (sorteia(1,6))
-		valordados = (dado1) + (dado2)
-		se(dado1 == dado2){
-			valordados += 3
-			escreva("\nparabéns você tirou dois dados iguais. + 3 pontos bônus")
-		}
-		posicaoj2 = posicaoj2 + valordados
-		escreva("\n1º dado --> "+dado1+" | 2º dado --> "+dado2+" | total = "+valordados+"\n")
+			escreva("\nRodada "+ rodada+ " de 5. \n")
+			escreva("\n"+j1+" Pressione 'ENTER' para jogar os dados)\n")
+			leia (iniciar)
+			se(iniciar == ""){
+			}
+			escreva("Rolando os dados....\n")
+			valordados = 0
+			dado1 = (sorteia(1,6))
+			dado2 = (sorteia(1,6))
+			valordados = (dado1) + (dado2)
+			se(dado1 == dado2){
+				valordados += 3
+				escreva("\nparabéns você tirou dois dados iguais. + 3 pontos bônus")
+			}
+			posicaoj1 = posicaoj1 + valordados
+			escreva("\n1º dado --> "+dado1+" | 2º dado --> "+dado2+" | total = "+valordados+"\n")
+			
+			
+			
+			//jogador2
+			escreva("\n"+j2+" Pressione 'ENTER' para jogar os dados)\n")
+			leia (iniciar)
+			se(iniciar == ""){
+			}
+			escreva("Rolando os dados....\n")
+			valordados = 0
+			dado1 = (sorteia(1,6))
+			dado2 = (sorteia(1,6))
+			valordados = (dado1) + (dado2)
+			se(dado1 == dado2){
+				valordados += 3
+				escreva("\nparabéns você tirou dois dados iguais. + 3 pontos bônus")
+			}
+			posicaoj2 = posicaoj2 + valordados
+			escreva("\n1º dado --> "+dado1+" | 2º dado --> "+dado2+" | total = "+valordados+"\n")
 
 		
 		
@@ -112,7 +112,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 748; 
+ * @POSICAO-CURSOR = 1617; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
