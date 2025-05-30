@@ -11,7 +11,6 @@ Os exercícios aqui presentes foram criados com o objetivo de solidificar os con
 * **`Lista 1 exercicios`**: Exercícios iniciais focados em estruturas sequenciais e tomada de decisão.
 * **`Lista 2 exercicios[ARRAY]`**: Exercícios que introduzem o conceito de arrays (vetores) e suas operações básicas.
 * **`TESTES`**: Arquivos de teste ou rascunhos utilizados durante o desenvolvimento.
-* **`vscode`**: Provavelmente arquivos de configuração ou relacionados ao ambiente VS Code.
 
 ## Como Visualizar/Executar
 
