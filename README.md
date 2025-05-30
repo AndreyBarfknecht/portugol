@@ -36,6 +36,5 @@ Este repositório é principalmente para fins de aprendizado e registro pessoal.
 Para dúvidas ou informações adicionais, você pode entrar em contato com o autor:
 
 * **AndreyBarknecht** (GitHub)
-* Professor **Maicon** (mencionado nos detalhes do repositório como contato inicial com programação)
 
 ---
