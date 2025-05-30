@@ -27,10 +27,6 @@ Para visualizar ou executar esses exercícios, você precisará de um ambiente q
 3.  **Abra os Arquivos:**
     Abra os arquivos `.por` (ou a extensão utilizada para Portugol) no seu ambiente de desenvolvimento preferido.
 
-## Contribuição
-
-Este repositório é principalmente para fins de aprendizado e registro pessoal. No entanto, se você encontrar algum erro, tiver sugestões de melhoria para os exercícios ou quiser adicionar novas soluções, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
-
 ## Contato
 
 Para dúvidas ou informações adicionais, você pode entrar em contato com o autor:
